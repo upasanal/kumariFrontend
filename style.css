@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+@font-face {
+  font-family: lato;
+  font-style: normal;
+  font-weight: normal;
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf)
+}
+
+@font-face {
+  font-family: saman;
+  src: url(./assets/fonts/saman.ttf);
+}
+
+ol li {
+  margin-bottom: 10px; 
+}
+
+ul{
+  margin-top: 10px; 
+}
+
+ul li {
+  margin-bottom: 10px; 
+}
+
+.lato{
+  font-family: lato;
+}
+
+
+.topnav {
+    background-color: #ba3515;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 5px solid black;
+    align-items: center; 
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: saman;
+  }
+
+  .topnav span {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: saman;
+  }
+
+  .topnav img{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width:70px
+  }
+  
+  .topnav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    box-shadow: -5px 0 rgb(234, 208, 63), 5px 0 rgb(234, 208, 63);
+  }
+  
+  .topnav a.active {
+    background-color: rgb(234, 208, 63);
+    box-shadow: -5px 0 rgb(234, 208, 63);
+    color: white;
+  }
+
+  .maincontainer{
+    width: 96%;
+    height: 100%;
+  }
+
+  .maincontainer img {
+    font-family: saman;
+    width: 48%;
+    float: left;
+    height: 100%;
+    border-right: #000000 5px solid;
+  }
+
+  .pagecontainer{
+    width: 100%;
+    height: 100%;
+  }
+
+  .pagecontainer img {
+    font-family: saman;
+    width: 48%;
+    float: right;
+    height: 100%
+  }
+
+  .clip {
+    font-family: saman;
+    width: 48%;
+    float: right;
+    height: 100%;
+    padding-top: 40px;
+  }
+
+
+  .maincontainer table, th, td {
+    border: 1px solid;
+  }
+  .pageText img{
+    width: 348px; 
+    height: 316px; 
+    object-fit: cover;
+  }
+
+ 
+
+  .mainText{
+    font-family: saman;
+    width: 48%;
+    float: right;
+    align-content: center;
+    padding-left: 30px;
+    height: 100%;
+  }
+
+  .pageText{
+    font-family: lato;
+    width: 48%;
+    float: left;
+    padding-left: 30px;
+    height: 100%;
+  }
+
+  .pageText h1,h2{
+font-family: saman;
+  }
+  
+
+  .mainText h1{
+    align-content: center;
+    font-size: 100px;
+  }
+
+  .mainText p{
+    font-family: lato;
+    font-size:60px;
+  }
+  
+  #redyellow{
+    color: rgb(186, 53, 21);
+    text-shadow: -5px 0 rgb(234, 208, 63);
+  }
+
+  .red{
+    color: rgb(186, 53, 21);
+  }
+
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: saman;
+  }
+
+  .bottomnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+    align-items: center; 
+    align-self: auto;
+  }
+
+  .footer-text {
+    color: white;
+    font-family: saman;
+    font-size: 15px;
+    text-align: right;
+    padding-inline-end: 20px;
+    padding:10px;
+}
+  
